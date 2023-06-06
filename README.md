@@ -21,9 +21,10 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 Recipe App <a name="about-project"></a>
+# 📖 Budget-tracking App <a name="about-project"></a>
 
 [Budget-app] is a classic example of a blog website. It is a functional website that show the list of Categories and associated operations to each categories.
+[video description](https://budget-tracking.onrender.com/)
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -99,6 +100,8 @@ To run the project, execute the following command:
 ```sh
   rails server
 ```
+### LIVE DEMO
+[Budget-tracking app](https://budget-tracking.onrender.com/)
 
 ### Run tests
 
@@ -111,7 +114,7 @@ bundle exec rspec
 You can deploy this project using:
 
 ```sh
-  Not yet deployed
+  Render
 ```
 
  <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -133,7 +136,7 @@ You can deploy this project using:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/habasm/RecipeApp/issues).
+Feel free to check the [issues page](https://github.com/habasm/budbet-app/issues).
 
 ## ⭐️ Show your support <a name="support"></a>
 
