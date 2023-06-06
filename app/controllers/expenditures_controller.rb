@@ -20,10 +20,10 @@ class ExpendituresController < ApplicationController
       category_expenditure = CategoryExpenditure.new(category_id: params[:category_id], expenditure_id: @expenditure.id)
       category_expenditure.save
       redirect_to category_path(@category.id)
-      flash[:notice] = 'Expenditure added'
+      flash[:notice] = 'Transaction added'
     else
       render :new
-      flash[:notice] = 'Error adding expenditure'
+      flash[:notice] = 'Error adding Transaction'
     end
   end
 

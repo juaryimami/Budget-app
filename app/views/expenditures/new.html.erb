@@ -6,8 +6,12 @@
    <div class="bg-white mt-2">
    <%= form.number_field :amount, placeholder: 'Amount Spent($)', type: 'float', required: true, class: "w-full p-4" %>
   </div>
+  <div class='bg-white mt-2'>
+  <%= form.label :category %><br>
+  <%= form.collection_select :category_id, Category.all, :id, :name, { include_blank: 'Select Category', selected: @category.id },class: "w-full p-4" , required: true %>
+</div>
   <div class="flex flex-col items-center mt-6">
-    <%= form.submit "Add Expenditure", class: "btn p-4 rounded-lg text-white" %>
+    <%= form.submit "Add Transactions", class: "btn p-4 rounded-lg text-white" %>
   </div>
 <% end %>
 </div>
