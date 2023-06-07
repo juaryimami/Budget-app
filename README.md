@@ -40,14 +40,17 @@ The Recipe App was built with:
 
 <details>
   <summary>Client</summary>
+  The client side of this application is webpage built with html, css, javascript.
 </details>
 
 <details>
   <summary>Server</summary>
+  Rails server is used to host this application
 </details>
 
 <details>
 <summary>Database</summary>
+    Postgres database version 14.
 </details>
 
 ### Key Features <a name="key-features"></a>
