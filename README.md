@@ -84,13 +84,15 @@ cd recipe-app
 
     Install the required gems:
 
-bundle install
+    bundle install
 
     Set up the database:
 
-rails db:create
+    rails db:create
 
-rails db:migrate
+    rails db:migrate
+
+    rake assets:precompile
 ```
 
 ### Usage
