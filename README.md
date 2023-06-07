@@ -144,6 +144,7 @@ If you like this project...give it a ⭐️!
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
+I would like to acknouledge  [Gregoire Vella](https://www.behance.net/gregoirevella) for the design contributor. 
 I would like to thank [@microverse](https://www.microverse.org/)
 
 ## 📝 License <a name="license"></a>
