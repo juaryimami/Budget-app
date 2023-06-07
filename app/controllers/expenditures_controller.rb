@@ -30,9 +30,13 @@ class ExpendituresController < ApplicationController
   def destroy
     @category = Category.find(params[:category_id])
     @expenditure = Expenditure.find(params[:id])
-    @expenditure.destroy
-    flash[:notice] = 'Expenditure deleted successfully'
-    redirect_to category_path(@category.id)
+    if @expenditure.destroy
+      flash[:notice] = 'Expenditure deleted successfully'
+      redirect_to category_path(@category.id)
+    else
+      render :new
+      flash[:notice] = 'Error deleting Transaction'
+    end
   end
 
   def expenditure_params
