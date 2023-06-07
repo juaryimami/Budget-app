@@ -24,7 +24,7 @@
 # 📖 Budget-tracking App <a name="about-project"></a>
 
 [Budget-app] is a classic example of a blog website. It is a functional website that show the list of Categories and associated operations to each categories.
-[video description](https://drive.google.com/file/d/1KABOSfUWQScLh13Mcy4NtJGdfzoqvef7/view?usp=sharing)
+[video description](https://drive.google.com/file/d/1u0gzAJP0sEVT7LaJ48EY9rsItkdQ2XMm/view?usp=sharing)
 
 ## 🛠 Built With <a name="built-with"></a>
 
