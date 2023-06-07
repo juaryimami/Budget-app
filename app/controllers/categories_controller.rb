@@ -31,9 +31,13 @@ class CategoriesController < ApplicationController
 
   def destroy
     @category = Category.find(params[:id])
-    @category.destroy
-    flash[:notice] = 'The category was successfully deleted'
-    redirect_to categories_path
+    if @category.destroy
+      flash[:notice] = 'The category was successfully deleted'
+      redirect_to categories_path
+    else
+      flash[:notice] = 'Could not delete category successfully'
+      render :new
+    end
   end
 
   def category_params
